@@ -1,25 +1,61 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Garage" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="cH0-MW-1B6"/>
+                        <viewControllerLayoutGuide type="bottom" id="xmG-s8-eem"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pga-yI-KKw">
+                                <rect key="frame" x="150" y="272" width="300" height="308"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="308" id="3YG-Uy-27E"/>
+                                    <constraint firstAttribute="width" constant="300" id="eDC-0D-jzJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3WY-Rn-J8f">
+                                <rect key="frame" x="236" y="89" width="128" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="HUi-oY-OfG"/>
+                                    <constraint firstAttribute="width" constant="128" id="gZ8-ri-aBL"/>
+                                </constraints>
+                                <state key="normal" image="icon_128x128.png"/>
+                                <connections>
+                                    <action selector="garageDoor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Azf-i4-nU3"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3WY-Rn-J8f" firstAttribute="top" secondItem="cH0-MW-1B6" secondAttribute="bottom" constant="69" id="6Bg-5b-KdL"/>
+                            <constraint firstItem="3WY-Rn-J8f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FDk-O9-gb4"/>
+                            <constraint firstItem="3WY-Rn-J8f" firstAttribute="leading" secondItem="pga-yI-KKw" secondAttribute="trailing" constant="-214" id="VC8-d3-3IA"/>
+                            <constraint firstItem="pga-yI-KKw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="126" id="lAI-nr-ts0"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="result" destination="pga-yI-KKw" id="DVO-dz-sL7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="693" y="525"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon_128x128.png" width="256" height="256"/>
+    </resources>
 </document>

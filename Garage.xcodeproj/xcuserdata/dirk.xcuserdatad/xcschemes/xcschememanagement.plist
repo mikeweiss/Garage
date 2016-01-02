@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>GarageWatch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>43AF5EA41C371B52004AA6DF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>43AF5EBB1C372903004AA6DF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
