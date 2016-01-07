@@ -5,4 +5,4 @@ iOS/WatchOS app to open my garage via Raspberry Pi
 
 Please find all information about this project here: 
 
-https://www.code2app.com/2016/01/05/how-to-open-your-garage-door-from-the-apple-watch/
+https://www.code2app.com/how-to-open-your-garage-door-from-the-apple-watch/
