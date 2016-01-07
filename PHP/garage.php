@@ -12,7 +12,7 @@ function garageDoor() {
   usleep(250000);
 
   // set GPIO pin #1 to Off/0/Low
-  system('gpio write 0 1');
+  system('gpio write 0 0');
 }
 
   garageDoor();
