@@ -10,14 +10,16 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="GarageWatch" customModuleProvider="target">
                     <items>
-                        <button width="136" height="136" alignment="center" verticalAlignment="center" backgroundImage="garageIcon136.png" id="LeB-Ol-l7m">
-                            <color key="titleColor" red="0.93333333330000001" green="0.54117647059999996" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <button width="136" height="136" alignment="center" verticalAlignment="center" enabled="NO" backgroundImage="garageIcon136gray.png" id="LeB-Ol-l7m">
                             <fontDescription key="font" type="system" weight="heavy" pointSize="40"/>
                             <connections>
                                 <action selector="garageDoor:" destination="AgC-eL-Hgc" id="qsn-Vt-Nbk"/>
                             </connections>
                         </button>
                     </items>
+                    <connections>
+                        <outlet property="doorButton" destination="LeB-Ol-l7m" id="rzH-wO-Y9o"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="164" y="217"/>

@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     // Mark: - Action
     @IBAction func garageDoor(sender: AnyObject) {
 
-        let url = NSURL(string: "http://192.168.178.42/garage.php")
+       let url = NSURL(string: "http://192.168.178.42/garage.php")
 
         let task = NSURLSession.sharedSession().dataTaskWithURL(url!) {(data, response, error) in
 

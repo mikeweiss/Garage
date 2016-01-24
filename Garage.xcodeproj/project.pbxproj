@@ -23,6 +23,7 @@
 		43AF5ED41C372903004AA6DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43AF5ED31C372903004AA6DF /* Assets.xcassets */; };
 		43AF5ED81C372903004AA6DF /* GarageWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 43AF5EBC1C372903004AA6DF /* GarageWatch.app */; };
 		43AF5EE31C373590004AA6DF /* garageIcon100.png in Resources */ = {isa = PBXBuildFile; fileRef = 43AF5EE11C373590004AA6DF /* garageIcon100.png */; };
+		43D8045C1C44672100E5F3AE /* garageIcon136gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 43D8045B1C44672100E5F3AE /* garageIcon136gray.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		4387EFCE1C37376200FCC69B /* garageIcon136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = garageIcon136.png; path = GarageWatch/garageIcon136.png; sourceTree = SOURCE_ROOT; };
 		4387EFD41C373D5700FCC69B /* icon_128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_128x128.png; sourceTree = "<group>"; };
 		4387EFD51C373D5700FCC69B /* icon_128x128@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_128x128@2x.png"; sourceTree = "<group>"; };
+		439207FB1C441166001C618B /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		43AF5EA51C371B52004AA6DF /* Garage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Garage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43AF5EA81C371B52004AA6DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43AF5EAA1C371B52004AA6DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 		43AF5ED31C372903004AA6DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43AF5ED51C372903004AA6DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43AF5EE11C373590004AA6DF /* garageIcon100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = garageIcon100.png; sourceTree = "<group>"; };
+		43D8045B1C44672100E5F3AE /* garageIcon136gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = garageIcon136gray.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,7 @@
 		43AF5E9C1C371B52004AA6DF = {
 			isa = PBXGroup;
 			children = (
+				439207FB1C441166001C618B /* MyPlayground.playground */,
 				43AF5EA71C371B52004AA6DF /* Garage */,
 				43AF5EBD1C372903004AA6DF /* GarageWatch */,
 				43AF5ECC1C372903004AA6DF /* GarageWatch Extension */,
@@ -139,6 +143,7 @@
 				43AF5EB41C371B52004AA6DF /* Info.plist */,
 				43AF5EE11C373590004AA6DF /* garageIcon100.png */,
 				4387EFCE1C37376200FCC69B /* garageIcon136.png */,
+				43D8045B1C44672100E5F3AE /* garageIcon136gray.png */,
 				4387EFD41C373D5700FCC69B /* icon_128x128.png */,
 				4387EFD51C373D5700FCC69B /* icon_128x128@2x.png */,
 			);
@@ -285,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4387EFCF1C37376200FCC69B /* garageIcon136.png in Resources */,
+				43D8045C1C44672100E5F3AE /* garageIcon136gray.png in Resources */,
 				43AF5EC21C372903004AA6DF /* Assets.xcassets in Resources */,
 				43AF5EC01C372903004AA6DF /* Interface.storyboard in Resources */,
 			);
